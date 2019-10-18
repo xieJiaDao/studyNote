@@ -1,7 +1,3 @@
-Hash表的致命缺陷 就是hash值的碰撞（collision）。
-
-
-
 #### 1. HashMap的容量为什么是二的n次幂？
 
 （1）首先HashMap容量初始化默认是1>>4,是16.
@@ -61,4 +57,10 @@ Java中的hash运算是用hash值和容量-1做与运算。hash & (length - 1); 
 ​			
 
 #### 5. reSize效率很低，所以初始化的时候，给一个合适的容量，避免多次扩容。
+
+#### 6. Hash表的致命缺陷 就是hash值的碰撞（collision）。
+
+#### 7. PS：参考博客
+
+​	 疫苗：JAVA HASHMAP的死循环 https://coolshell.cn/articles/9606.html 
 
